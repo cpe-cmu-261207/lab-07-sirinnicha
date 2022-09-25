@@ -11,7 +11,6 @@ export default function Home() {
   const [todos, setTodos] = useState([]);
   const [input, setInput] = useState("");
   const [index, setIndex] = useState(0);
-  // const [hid, setHid] = useState(0);
 
   const deleteTodo = (idx) => {
     setTodos((current) =>
